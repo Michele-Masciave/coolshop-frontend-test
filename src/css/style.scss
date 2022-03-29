@@ -1,0 +1,123 @@
+$white: #fff;
+$light-grey: #ededed;
+$grey: #282c34;
+$danger: #fe6d73;
+$brune: #fef9ef;
+$yellow: #ffcb77;
+$green: #17c3b2;
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background-color: $light-grey;
+  color:$grey;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.app-container {
+  //style
+  background-color:$yellow;
+  min-height: 100vh;
+  //display
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-calculator {
+  //display
+  width: 35%;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  //style
+  background-color: $brune;
+  box-sizing: border-box;
+  box-shadow: 10px 10px $green;
+}
+
+.app-input-text {
+  //style
+  font-size: large;
+  background-color: $white;
+  box-sizing: border-box;
+  box-shadow: 5px 5px $yellow;
+  font-family: 'Noto Sans', sans-serif;
+  color: $grey;
+}
+
+.app-input-button {
+  //style
+  font-size: large;
+  background-color: $white;
+  box-sizing: border-box;
+  box-shadow: 5px 5px $yellow;
+  font-family: 'Noto Sans', sans-serif;
+  color: $grey;
+}
+
+.app-input-button:hover {
+  //style
+  font-size:x-large;
+  color: $green;
+}
+
+.app-input-remove {
+  //style
+  background-color: $white;
+  box-sizing: border-box;
+  box-shadow: 5px 5px $danger;
+  color: $danger;
+}
+
+.app-input-remove:hover {
+  //style
+  font-size:x-large;
+  color: $danger;
+}
+
+.app-footer-container {
+  //style
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app-addrow-button {
+  //style
+  box-sizing: border-box;
+  box-shadow: 5px 5px $green;
+}
+
+.app-header-container {
+   //display
+   width: 35%;
+   min-height: 8vh;
+   margin-top: 10px;
+   padding: 5px 0px;
+   border-radius: 10px;
+   align-items: center;
+   text-align: center;
+   //style
+   background-color: $brune;
+   box-sizing: border-box;
+   box-shadow: 10px 10px $green;
+   font-family:'Courier New', Courier, monospace;
+   font-size: 5.5vh;
+   text-align: right;
+}
+
+.app-label-calculator {
+ //display
+ float:left;
+ padding: 10px 10px;
+ max-height: 8vh;
+ //style
+ color: $grey;
+}
